@@ -47,13 +47,15 @@ class _MyFormState extends State<MyForm> {
                 fontSize: 30.0,
               ),
             ),
-            FlatButton(  // 一番シンプルなボタン
+            TextButton(  // 一番シンプルなボタン
               onPressed: _handlePressed,
-              color: Colors.blue,
+              style: TextButton.styleFrom(
+                foregroundColor: Colors.bule,
+              ),
               child: Text(
                 "いいね!",
                 style: TextStyle(
-                    color:Colors.white,
+                    // color:Colors.white,
                     fontSize: 20.0
                 ),
               ),
